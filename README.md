@@ -1,3 +1,6 @@
 This is where I will deploy my front-end projects.
 
-[Link to Front-End-Mentor Task1](https://polishko.github.io/Task1/task1.html)
+Front End Mentor Challenges:
+  - Challenge 1:
+    [Link to Page](https://polishko.github.io/Task1/task1.html)
+    [Link to code](https://github.com/Polishko/Front-End-Mentor-Projects/tree/main/Task1)
