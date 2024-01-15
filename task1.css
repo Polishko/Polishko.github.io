@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Georgia, 'Times New Roman', Times, serif;
+  }
+  
+body {
+    display: flex;
+    height: 100vh;
+    background-color: lightgray;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.QR-code {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border-radius: 13px;
+    background-color: white;
+}
+
+.QR-code > span {
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    padding: 1em;
+}
+
+.QR-code > section > p {
+    padding: 0.3em 1.5em;
+    text-align: center;
+}
+
+.QR-code > section > p:first-child {
+    font-weight: bold;
+}
+
+.QR-code > section > p:nth-child(2) {
+    font-size: 12px;
+    padding: 0.2em 2em 1em 2em;
+    line-height: 1.2;
+    color: gray;
+}
+
+.attribution { font-size: 8px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (min-width: 600px) {
+    html { font-size: 18px; }
+
+    .QR-code > section > p:nth-child(2) {
+        font-size: 14px;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+  }
+
